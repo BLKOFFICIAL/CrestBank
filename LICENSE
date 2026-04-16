@@ -1,0 +1,33 @@
+MIT License
+
+Copyright (c) 2026 CrestMC
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+In addition to the standard MIT License conditions, you must adhere to the following
+Attribution Requirements established by the CrestBank Project:
+
+1. PROPER CREDIT: If you use, fork, or modify this project, you must give proper 
+   credit to the original project "CrestBank".
+2. DOCUMENTATION: You must explicitly mention "Based on CrestBank" prominently in 
+   your project documentation and README.
+3. SOURCE INTEGRITY: You must keep all original copyright notices in the source code.
+4. REPOSITORY LINK: You must provide a clear, functional link back to the original 
+   repository (https://github.com/BLKOFFICIAL/CrestBank.git).
+5. OWNERSHIP: You may encourage forks, but you shall not claim this project as your own.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
