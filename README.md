@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.ibb.co/Jws2CJCc/Screenshot-2026-03-10-170242.png" width="128" height="128" style="border-radius: 20%">
+  <img src="https://i.ibb.co/mFy7m03y/Chat-GPT-Image-Apr-16-2026-12-59-31-PM.png" width="128" height="128" style="border-radius: 20%">
   <h1>🏦 CrestBank</h1>
   <h3>Industrial-Grade Economy & Financial Infrastructure</h3>
 
@@ -8,6 +8,14 @@
     <a href="https://www.java.com/"><img src="https://img.shields.io/badge/Java-17+-orange?style=for-the-badge&logo=java" alt="Java"></a>
     <a href="https://papermc.io/"><img src="https://img.shields.io/badge/Platform-Spigot%20%2F%20Paper-green?style=for-the-badge" alt="Platform"></a>
     <a href="https://github.com/BLKOFFICIAL/CrestBank/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT_%2B_Attribution-green?style=for-the-badge" alt="License"></a>
+  </p>
+
+  <p>
+    <img src="https://img.shields.io/github/repo-size/BLKOFFICIAL/CrestBank?style=flat-square&color=blue" alt="Size">
+    <img src="https://img.shields.io/github/last-commit/BLKOFFICIAL/CrestBank?style=flat-square&color=blue" alt="Last Commit">
+    <img src="https://img.shields.io/github/issues/BLKOFFICIAL/CrestBank?style=flat-square&color=blue" alt="Issues">
+    <img src="https://img.shields.io/github/stars/BLKOFFICIAL/CrestBank?style=flat-square&color=blue" alt="Stars">
+    <img src="https://img.shields.io/github/forks/BLKOFFICIAL/CrestBank?style=flat-square&color=blue" alt="Forks">
   </p>
 
   <p align="center">
