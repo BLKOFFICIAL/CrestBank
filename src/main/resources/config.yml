@@ -1,0 +1,30 @@
+database:
+  typeOfDatabase: "FLATFILE" # MYSQL or FLATFILE
+  mysql:
+    host: "localhost"
+    port: 3306
+    database: "crestbank"
+    username: "root"
+    password: ""
+    tablePrefix: "cb_"
+
+general:
+  interest:
+    enabled: true
+    percentageAmount: 0.05
+    maxBalanceLimit: 1000000.0
+    intervalMinutes: 60
+  pruneHistoryHours: 720 # 30 Days
+  timeBetweenTwoInteractions: 40
+  bankNote:
+    minAmount: 10.0
+    maxAmount: 1000000.0
+  security:
+    suspiciousThreshold: 500000.0
+    confirmationThreshold: 100000.0
+  update-checker:
+    enabled: true
+
+gui:
+  title: "§0§lCrestBank - Central Account"
+  size: 27
