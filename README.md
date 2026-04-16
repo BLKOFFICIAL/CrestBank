@@ -4,7 +4,7 @@
   <h3>Industrial-Grade Economy & Financial Infrastructure</h3>
 
   <p>
-    <a href="https://github.com/BLKOFFICIAL/CrestBank/releases"><img src="https://img.shields.io/github/v/release/BLKOFFICIAL/CrestBank?color=blue&style=for-the-badge" alt="Release"></a>
+    <a href="https://github.com/BLKOFFICIAL/CrestBank/releases"><img src="https://img.shields.io/github/v/release/BLKOFFICIAL/CrestBank?color=blue&label=Version&style=for-the-badge" alt="Release"></a>
     <a href="https://www.java.com/"><img src="https://img.shields.io/badge/Java-17+-orange?style=for-the-badge&logo=java" alt="Java"></a>
     <a href="https://papermc.io/"><img src="https://img.shields.io/badge/Platform-Spigot%20%2F%20Paper-green?style=for-the-badge" alt="Platform"></a>
     <a href="https://github.com/BLKOFFICIAL/CrestBank/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT_%2B_Attribution-green?style=for-the-badge" alt="License"></a>
@@ -84,7 +84,7 @@ Hook into the central bank institution with our streamlined Java API.
 <dependency>
     <groupId>net.crestbank</groupId>
     <artifactId>CrestBank</artifactId>
-    <version>1.0.0</version>
+    <version>1.2.0</version>
     <scope>provided</scope>
 </dependency>
 ```
