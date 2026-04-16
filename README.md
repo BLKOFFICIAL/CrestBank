@@ -1,78 +1,77 @@
-# 🏦 CrestBank: Industrial-Grade Economy & Financial Infrastructure
+<div align="center">
+  <img src="https://i.ibb.co/Jws2CJCc/Screenshot-2026-03-10-170242.png" width="128" height="128" style="border-radius: 20%">
+  <h1>🏦 CrestBank</h1>
+  <h3>Industrial-Grade Economy & Financial Infrastructure</h3>
 
-![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)
-![Java](https://img.shields.io/badge/Java-17+-orange.svg)
-![Platform](https://img.shields.io/badge/Platform-Spigot%20%2F%20Paper-green.svg)
+  <p>
+    <a href="https://github.com/BLKOFFICIAL/CrestBank/releases"><img src="https://img.shields.io/github/v/release/BLKOFFICIAL/CrestBank?color=blue&style=for-the-badge" alt="Release"></a>
+    <a href="https://www.java.com/"><img src="https://img.shields.io/badge/Java-17+-orange?style=for-the-badge&logo=java" alt="Java"></a>
+    <a href="https://papermc.io/"><img src="https://img.shields.io/badge/Platform-Spigot%20%2F%20Paper-green?style=for-the-badge" alt="Platform"></a>
+    <a href="https://github.com/BLKOFFICIAL/CrestBank/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge" alt="License"></a>
+  </p>
 
-**CrestBank** is the definitive financial ecosystem designed for modern Minecraft servers. Built with high-performance, security-first principles, it replaces standard command-based money management with a premium, GUI-driven institutional banking experience.
-
-Designed for **Minecraft 1.21.1+**, CrestBank bridges the gap between simple wallet money and a fully managed banking system.
+  <p align="center">
+    <b>CrestBank</b> is the definitive institutional financial ecosystem for modern Minecraft servers. 
+    <br /> Built with security-first principles to bridge the gap between pocket money and enterprise-level banking.
+  </p>
+</div>
 
 ---
 
-## 🚀 Core Systems & Features
+## ✨ Premium Features
 
-### 🖥️ Categorized Dynamic GUI
-Forget typing long, tedious commands. CrestBank features a high-fidelity inventory interface:
+> [!TIP]
+> CrestBank uses **Atomic SQL Transactions** to ensure that money is never lost or duplicated, even during catastrophic server crashes.
+
+### 🍱 Categorized Dynamic GUI
+Forget typing long, tedious commands. Access your wealth through a high-fidelity interface.
 *   **Visual Grouping**: Clean separation between Deposit and Withdraw sections.
 *   **Smart Percentages**: Interact with **25%, 50%, 75%, and 100%** of your balance.
-*   **Real-time Logic**: Buttons dynamically calculate and display precise amounts based on your current liquid capital.
+*   **Dynamic Logic**: Real-time calculation of liquidity.
 
-![Bank GUI](https://i.ibb.co/Jws2CJCc/Screenshot-2026-03-10-170242.png)
+<div align="center">
+  <img src="https://i.ibb.co/Jws2CJCc/Screenshot-2026-03-10-170242.png" width="600" alt="Bank GUI">
+</div>
 
 ### 📈 Passive Wealth (Interest)
 Players earn passive income by storing money in the bank.
-*   **Asynchronous Interest**: Payouts happen in the background to ensure zero TPS impact.
-*   **Global Multipliers**: Run server events with **Interest Boosts** (e.g., 2x Interest Weekend).
-*   **Notifications**: Clear feedback when interest is credited to account holders.
+*   **Zero TPS Impact**: All payout logic happens asynchronously.
+*   **Global Boosts**: Run server events with **Interest Multipliers**.
+*   **Immersive Messaging**: High-fidelity readouts for interest credits.
 
-![Interest Messages](https://i.ibb.co/vb8bJsJ/Screenshot-2026-03-10-170614.png)
+<div align="center">
+  <img src="https://i.ibb.co/vb8bJsJ/Screenshot-2026-03-10-170614.png" width="600" alt="Interest Messages">
+</div>
 
 ### 🛡️ Unrivaled Transaction Security
-*   **Atomic SQL Transfers**: Implemented with `START TRANSACTION` and `COMMIT` logic. Money is never lost or duplicated during server crashes.
-*   **Anti-Dupe Note Protection**: Physical bank notes include unique identifiers to prevent duplication exploits.
-*   **Forensic Logging**: Every single cent moved is tracked in `/logs/crestbank.log`.
-*   **Risk Scoring**: Automated system calculates **Risk Ratings** (LOW to CRITICAL) for every account based on behavior patterns.
+*   **Forensic Auditing**: Every cent moved is tracked in `/logs/crestbank.log`.
+*   **Risk Scoring**: Detect alts and economy abusers with automated "Financial Risk Ratings."
+*   **Anti-Dupe Notes**: Physical bank notes with unique, cryptographically signed identifiers.
 
-![Invalid Bank Note](https://i.ibb.co/393pdMTj/Screenshot-2026-03-10-170847.png)
-
-### 🛑 Emergency Global Controls
-*   **Maintenance Mode**: RP-friendly mode that halts financial interactions with immersive audio/visual feedback.
-*   **Global Lockdown**: Instant emergency freeze that locks every bank account on the server simultaneously.
-*   **Account Freezing**: Precisely freeze individual users for investigation.
+<div align="center">
+  <img src="https://i.ibb.co/393pdMTj/Screenshot-2026-03-10-170847.png" width="600" alt="Invalid Bank Note">
+</div>
 
 ---
 
 ## 📜 Commands & Permissions
 
-| Command | Permission | Description |
+| Command | Permission | Category |
 | :--- | :--- | :--- |
-| `/bank` | `crestbank.user` | Opens the primary banking GUI. |
-| `/bank pay <p> <amt>` | `crestbank.user` | Digital Wire Transfer to another player. |
-| `/bank note <amt>` | `crestbank.user` | Draft a physical bank note in hand. |
-| `/bank history` | `crestbank.user` | View your personal transaction ledger. |
-| `/bank audit <p>` | `crestbank.admin` | View deep forensic profile & risk score. |
-| `/bank lockdown` | `crestbank.admin` | Toggle emergency global economy freeze. |
-| `/bank dashboard` | `crestbank.admin` | World financial overview & liquidity stats. |
-
----
-
-## 🧩 PlaceholderAPI (PAPI)
-**Prefix**: `%crestbank_...%`
-
-| Placeholder | Output |
-| :--- | :--- |
-| `%crestbank_balance%` | Returns numerical balance (e.g., `4523.50`). |
-| `%crestbank_status%` | Visual status: §a§lACTIVE or §c§lFROZEN. |
-| `%crestbank_top_name_1%` | Name of the richest player (Rank 1). |
+| `/bank` | `crestbank.user` | 🏦 Primary Banking GUI |
+| `/bank pay <p> <amt>` | `crestbank.user` | 💸 Wire Transfer |
+| `/bank note <amt>` | `crestbank.user` | 💵 Physical Check |
+| `/bank audit <p>` | `crestbank.admin` | 🕵️ Forensic Audit |
+| `/bank lockdown` | `crestbank.admin` | 🛑 Global Freeze |
+| `/bank dashboard` | `crestbank.admin` | 📊 Admin Dashboard |
 
 ---
 
 ## 👨‍💻 Developer API
 
-CrestBank is built for extensibility. Developers can hook into the system via the `BankManager`.
+Hook into the central bank institution with our streamlined Java API.
 
-### 📦 Maven Dependency
+### 📦 Dependency (Maven)
 ```xml
 <dependency>
     <groupId>net.crestbank</groupId>
@@ -82,8 +81,14 @@ CrestBank is built for extensibility. Developers can hook into the system via th
 </dependency>
 ```
 
-### 💻 Implementation Example
+<details>
+<summary>🛠️ Implementation Example (Click to expand)</summary>
+
 ```java
+// Import core classes
+import net.crestbank.money.Money;
+import net.crestbank.money.database.Account;
+
 // Get the CrestBank instance
 Money plugin = Money.getInstance();
 
@@ -94,26 +99,46 @@ Account acc = plugin.getBankManager().getAccount(player.getUniqueId());
 acc.setBalance(acc.getBalance() + 1000.0);
 plugin.getStorageManager().getProvider().saveAccount(acc);
 ```
+</details>
 
 ---
 
-## 🛠️ Build & Requirements
-*   **JDK 17+** is required.
-*   **Vault API** is mandatory for economy integration.
-*   **MySQL / MariaDB** recommended for atomic ledger performance.
+## 🧩 PlaceholderAPI (PAPI)
+**Prefix**: `%crestbank_...%`
+
+<details>
+<summary>📊 List of Placeholders (Click to expand)</summary>
+
+| Placeholder | Output Description |
+| :--- | :--- |
+| `%crestbank_balance%` | Numerical bank capital. |
+| `%crestbank_status%` | Visual status: §a§lACTIVE or §c§lFROZEN. |
+| `%crestbank_top_name_1%` | Name of the richest player. |
+| `%crestbank_interest_rate%` | Current interval percentage. |
+</details>
 
 ---
 
-## 🌟 Support
-Designed by **CrestMC**. Visit our website at [www.crestmc.xyz](https://www.crestmc.xyz).
+## ⚙️ Configuration & Setup
+1.  **JDK 17+** is mandatory.
+2.  Install **Vault** (required) and a supported economy plugin.
+3.  (Optional) Setup **MySQL/MariaDB** for high-volume atomic ledgers.
 
 ---
 
 ## ⚖️ Attribution
+
 If you use or modify this project, you must provide proper credit to the original project: **CrestBank**.
 
 *   **Copyright**: Keep all original copyright notices in the source code.
-*   **Mention**: Explicitly mention "Based on CrestBank" prominently in your project documentation.
+*   **Mention**: Explicitly mention "Based on CrestBank" prominently in your documentation.
 *   **Link**: Provide a functional link back to the original repository.
 
 *Forks are encouraged, but do not claim this project as your own.*
+
+---
+
+<div align="center">
+  <p>Designed with ❤️ by <b>CrestMC</b></p>
+  <a href="https://www.crestmc.xyz">Official Website</a> • <a href="https://github.com/BLKOFFICIAL/CrestBank/issues">Report Issues</a>
+</div>
